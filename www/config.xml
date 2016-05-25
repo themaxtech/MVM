@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="in.mvmcbe.mvm" version="1.0.5" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+<widget id="in.mvmcbe.mvm" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
     <name>MVM CBE</name>
     <description>
       Welcome to MVM CBE
@@ -7,12 +7,7 @@
     <author email="maxtechapps@gmail.com" href="http://themaxtech.com">
         ARUN G
     </author>
-    <feature name="http://api.phonegap.com/1.0/device" />
-    <feature name="Push">
-      <param name="wp-package" value="Push" />
-      <param name="onload" value="false" />
-    </feature>
-
+    <feature name="http://api.phonegap.com/1.0/device" /> 
     <preference name="permissions" value="none" />
     <preference name="phonegap-version" value="3.7.0" />
     <preference name="orientation" value="default" />
@@ -35,6 +30,10 @@
     <!-- iOS: Obey the app's viewport meta tag -->
     <preference name="EnableViewportScale" value="true"/>
     <preference name="WindowsToastCapable" value="true"/> 
+    <feature name="Push">
+      <param name="wp-package" value="Push" />
+      <param name="onload" value="false" />
+    </feature>
     <icon src="icon.png" />
     
     <icon gap:platform="ios" height="57" src="res/icon/ios/icon-57.png" width="57" />
